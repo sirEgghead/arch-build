@@ -184,6 +184,11 @@ Password
 ```
 # passwd user
 ```
+Add wheel group to sudoers
+```
+# EDITOR=nvim visudo
+```
+Type `/wheel<ENTER>` to search.  Type __^xx__ to delete the comment and whitespace at the start of the line.  __:wq__ to save and exit.
 ## Network
 I use systemd-networkd
 ```
