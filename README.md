@@ -226,5 +226,8 @@ IgnoreCarrierLoss=3s
 UseDNS=yes
 ```
 Wireless network still needs __wpasupplicant__ etc.  The route metric allows both to be connected simultaneously and prefer wired.
+```
+pacman -S wpa_supplicant
+```
 # Hyprland
 pacman
