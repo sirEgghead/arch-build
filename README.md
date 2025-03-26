@@ -114,7 +114,7 @@ Copy the UUID of your root partition into your clipboard.
 ```
 ```
 title Arch Linux
-linux /vmlinuz/linux
+linux /vmlinuz-linux
 initrd /initramfs-linux.img
 options root=UUID=xxxxxxxxxxxx rw
 ```
