@@ -230,4 +230,6 @@ Wireless network still needs __wpasupplicant__ etc.  The route metric allows bot
 pacman -S wpa_supplicant
 ```
 # Hyprland
-pacman
+```
+yay -S hyprland hyprlock hypridle hyprshot swaync waybar rofi
+```
