@@ -226,23 +226,31 @@ DHCP=yes
 IgnoreCarrierLoss=3s
 UseDNS=yes
 ```
+Enable systemd-networkd at boot
+```
+# systemctl enable systemd-networkd
+```
 Wireless network still needs __wpasupplicant__ etc.  The route metric allows both to be connected simultaneously and prefer wired.
 ```
 # pacman -S wpa_supplicant
 ```
-# Switch to your user
+## Intel Microcode
+```
+# pacman -S intel-ucode
+```
+## Switch to your user
 ```
 # su user
 ```
-# Hyprland
+## Hyprland
 ```
 $ yay -S uwsm hyprland hyprlock hypridle hyprshot swaync waybar rofi
 ```
-# Oh My ZSH
+## Oh My ZSH
 ```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-# Fonts
+## Fonts
 ```
 $ yay -S otf-font-awesome noto-fonts powerline-fonts noto-fonts-cjk geist-font ttf-hack-nerd
 ```
