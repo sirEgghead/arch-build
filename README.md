@@ -230,6 +230,14 @@ Enable systemd-networkd at boot
 ```
 # systemctl enable systemd-networkd
 ```
+Add DNS resolvers manually (for now)
+```
+# vim /etc/resolv.conf
+```
+```
+nameserver 10.1.25.206
+nameserver 10.1.25.216
+```
 Wireless network still needs __wpasupplicant__ etc.  The route metric allows both to be connected simultaneously and prefer wired.
 ```
 # pacman -S wpa_supplicant
