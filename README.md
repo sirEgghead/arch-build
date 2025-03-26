@@ -68,7 +68,7 @@ Root
 # mkdir /mnt/boot
 # mount /dev/sda1 /mnt/boot
 ```
-Don't __mkdir /mnt/boot__ before mounting __/dev/sda3__ or it won't be inside the partition.
+Don't __mkdir /mnt/boot__ before mounting __/dev/sda3__ oyay -S otf-font-awesome noto-fonts powerline-fonts noto-fonts-cjk geist-font ttf-hack-nerdr it won't be inside the partition.
 ## Install Arch
 ```
 # pacstrap -K /mnt base base-devel linux linux-firmware
@@ -244,7 +244,7 @@ Wireless network still needs __wpasupplicant__ etc.  The route metric allows bot
 ```
 ## Hyprland
 ```
-$ yay -S uwsm hyprland hyprlock hypridle hyprshot swaync waybar rofi
+$ yay -S uwsm hyprland hyprlock hypridle hyprshot swaync waybar rofi pipewire wireplumber pipewire-alsa
 ```
 ## Oh My ZSH
 ```
@@ -253,4 +253,8 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 ## Fonts
 ```
 $ yay -S otf-font-awesome noto-fonts powerline-fonts noto-fonts-cjk geist-font ttf-hack-nerd
+```
+## SSH, File Manager, Teams, Spotify, Global Protect, Remmina for RDP
+```
+yay -S openssh thunar teams-for-linux spotify globalprotect-openconnect remmina freerdp
 ```
