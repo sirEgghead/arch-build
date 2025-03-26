@@ -232,5 +232,5 @@ pacman -S wpa_supplicant
 ```
 # Hyprland
 ```
-yay -S hyprland hyprlock hypridle hyprshot swaync waybar rofi
+yay -S uwsm hyprland hyprlock hypridle hyprshot swaync waybar rofi
 ```
