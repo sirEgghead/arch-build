@@ -266,3 +266,4 @@ $ yay -S otf-font-awesome noto-fonts powerline-fonts noto-fonts-cjk geist-font t
 ```
 yay -S openssh thunar teams-for-linux spotify globalprotect-openconnect remmina freerdp
 ```
+Add my .zshrc lines to the bottom of your .zshrc.  Add config files as needed.  Might grep for "tsayne" or "trsayne" in some of them.
