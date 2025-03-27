@@ -285,5 +285,7 @@ $ git clone https://github.com/spicetify/spicetify-themes.git --depth=1
 $ cd spicetify-themes
 $ cp -r ./* ~/.config/spicetify/Themes
 $ spicetify config current_theme chooseAThemeNameFromTheDirectory
-$ spicetify spicetify apply
+$ wget https://github.com/rxri/spicetify-extensions/raw/refs/heads/main/adblock/adblock.js -O ~/.config/spicetify/Extensions/adblock.js
+$ spicetify config extensions adblock.js
+$ spicetify apply
 ```
