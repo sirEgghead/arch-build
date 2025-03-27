@@ -46,7 +46,8 @@ Use __n__ to create a new partition.  First question is what number partition.  
 |boot |1        |default     |+4G        |ef00|
 |swap |2        |default     |+32G       |8200|
 |root |3        |default     |default    |8300|
-Swap size is whatever size your RAM is, usually.
+----------------------------------------------
+Swap size is whatever size your RAM is, usually.  Use __w__ to save your work.
 ## Partitions
 FAT32 on boot.
 ```
