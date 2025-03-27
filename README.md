@@ -274,3 +274,16 @@ $ yay -S vmware-vmrc
 $ cp ~/Downloads/VMware* ~/.cache/yay/vmware-vmrc
 $ yay -S vmware-vmrc
 ```
+## Pretty Spotify
+```
+$ yay -S spicetify-cli
+$ sudo chmod a+rw /opt/spotify
+$ sudo chmod -R a+rw /opt/spotify/Apps
+$ spicetify
+$ spicetify backup apply enable-devtools
+$ git clone https://github.com/spicetify/spicetify-themes.git --depth=1
+$ cd spicetify-themes
+$ cp -r ./* ~/.config/spicetify/Themes
+$ spicetify config current_theme chooseAThemeNameFromTheDirectory
+$ spicetify spicetify apply
+```
