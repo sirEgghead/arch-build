@@ -289,3 +289,8 @@ $ wget https://github.com/rxri/spicetify-extensions/raw/refs/heads/main/adblock/
 $ spicetify config extensions adblock.js
 $ spicetify apply
 ```
+## Trusted CA Certificates
+Download the certs from share. For Firefox, installing in the app is also needed.
+```
+$ sudo trust anchor --store cert.crt
+```
