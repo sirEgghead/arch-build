@@ -294,3 +294,8 @@ Download the certs from share. For Firefox, installing in the app is also needed
 ```
 $ sudo trust anchor --store cert.crt
 ```
+## Rofi Theme Shit
+Pick type and style from here.
+```
+https://github.com/adi1090x/rofi
+```
