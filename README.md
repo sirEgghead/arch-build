@@ -301,11 +301,13 @@ https://github.com/adi1090x/rofi
 ```
 ## SEH CrowdStrike
 ```
+$ yay -U falcon-sensor-7.22.0-1-x86_64.pkg.tar.zst
 $ sudo /opt/CrowdStrike/falconctl -s --cid=--cid=EF1E08612F1E4324AFDDF3168F2BFF09-7F
 $ sudo systemctl enable --now falcon-sensor
 ```
 ## SEH Rapid7
 ```
+$ yay -U rapid7-insight-agent-4.0.15.31-1-x86_64.pkg.tar.zst
 $ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/*.sh
 $ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/connectivity_test
 $ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/get_proxy
