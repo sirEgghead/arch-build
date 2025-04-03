@@ -299,3 +299,18 @@ Pick type and style from here.
 ```
 https://github.com/adi1090x/rofi
 ```
+## SEH CrowdStrike
+```
+$ sudo /opt/CrowdStrike/falconctl -s --cid=--cid=EF1E08612F1E4324AFDDF3168F2BFF09-7F
+$ sudo systemctl enable --now falcon-sensor
+```
+## SEH Rapid7
+```
+$ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/*.sh
+$ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/connectivity_test
+$ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/get_proxy
+$ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/ir_agent
+$ sudo chmod 0700 /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/token_handler
+$ sudo /opt/rapid7/ir_agent/components/insight_agent/4.0.15.31/configure_agent.sh -t us2:12aa0a38-915a-410b-942b-5931e6dabf21
+$ sudo systemctl enable --now ir_agent
+```
