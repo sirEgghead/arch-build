@@ -302,7 +302,7 @@ https://github.com/adi1090x/rofi
 ## SEH CrowdStrike
 ```
 $ yay -U falcon-sensor-7.22.0-1-x86_64.pkg.tar.zst
-$ sudo /opt/CrowdStrike/falconctl -s --cid=--cid=EF1E08612F1E4324AFDDF3168F2BFF09-7F
+$ sudo /opt/CrowdStrike/falconctl -s --cid=EF1E08612F1E4324AFDDF3168F2BFF09-7F
 $ sudo systemctl enable --now falcon-sensor
 ```
 ## SEH Rapid7
