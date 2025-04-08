@@ -299,6 +299,11 @@ Pick type and style from here.
 ```
 https://github.com/adi1090x/rofi
 ```
+## Wireshark
+```
+$ yay -S wireshark-qt
+$ sudo usermod -a -G wireshark trsayne
+```
 ## SEH CrowdStrike
 ```
 $ yay -U falcon-sensor-7.22.0-1-x86_64.pkg.tar.zst
