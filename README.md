@@ -253,7 +253,7 @@ Wireless network still needs __wpasupplicant__ etc.  The route metric allows bot
 ```
 ## Hyprland
 ```
-$ yay -S uwsm hyprland hyprlock hypridle hyprshot swaync waybar rofi pipewire wireplumber pipewire-alsa
+$ yay -S uwsm hyprland hyprlock hypridle hyprshot swaync waybar rofi-wayland pipewire wireplumber pipewire-alsa
 ```
 ## Oh My ZSH
 ```
